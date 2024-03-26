@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "daisyui": "^4.7.3",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.1"
+  },
+  "scripts": {
+    "dev": " npx tailwindcss -i ./src/css/style.css -o ./public/output.css --watch"
+  },
+  "dependencies": {
+    "flowbite": "^2.3.0"
+  }
+}
