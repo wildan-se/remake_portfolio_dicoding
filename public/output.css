@@ -11790,6 +11790,10 @@ html:has(.drawer-open.drawer-open) {
   justify-items: stretch;
 }
 
+.gap-6 {
+  gap: 1.5rem;
+}
+
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -12321,11 +12325,6 @@ html:has(.drawer-open.drawer-open) {
   background-color: rgb(202 191 253 / var(--tw-bg-opacity));
 }
 
-.bg-red-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 128 128 / var(--tw-bg-opacity));
-}
-
 .bg-red-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(240 82 82 / var(--tw-bg-opacity));
@@ -12338,11 +12337,6 @@ html:has(.drawer-open.drawer-open) {
 
 .bg-white\/50 {
   background-color: rgb(255 255 255 / 0.5);
-}
-
-.bg-blue-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(118 169 250 / var(--tw-bg-opacity));
 }
 
 .decoration-slice {
@@ -12428,6 +12422,10 @@ html:has(.drawer-open.drawer-open) {
 
 .bg-origin-content {
   background-origin: content-box;
+}
+
+.fill-current {
+  fill: currentColor;
 }
 
 .object-contain {
@@ -17374,17 +17372,19 @@ html:has(.drawer-open.drawer-open) {
   }
 }
 
+@media (min-width: 768px) {
+  .md\:place-self-center {
+    place-self: center;
+  }
+
+  .md\:justify-self-end {
+    justify-self: end;
+  }
+}
+
 @media (min-width: 1024px) {
   .lg\:fixed {
     position: fixed;
-  }
-
-  .lg\:absolute {
-    position: absolute;
-  }
-
-  .lg\:relative {
-    position: relative;
   }
 
   .lg\:left-0 {
@@ -17405,6 +17405,10 @@ html:has(.drawer-open.drawer-open) {
 
   .lg\:ml-36 {
     margin-left: 9rem;
+  }
+
+  .lg\:ml-56 {
+    margin-left: 14rem;
   }
 
   .lg\:block {
@@ -17433,6 +17437,10 @@ html:has(.drawer-open.drawer-open) {
 
   .lg\:w-56 {
     width: 14rem;
+  }
+
+  .lg\:w-\[1293px\] {
+    width: 1293px;
   }
 
   .lg\:w-full {
